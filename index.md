@@ -1,7 +1,10 @@
 # Introductory Guide to Kepler.gl
 _Prepared by Alyssa Lopez_
 
-**Potential Data Sets**
-       [Alabama Interviews] (Alabama_Interviews_CartoDB.csv)    
+Kepler.gl is a platform designed for geospatial data analysis, making it possible to investigate trends on various geographical levels, including region, state, city, and county.
 
-Kepler.gl is a platform designed for geospatial data analysis, making it possible to investigate trends on various levels, including region, state, city, and county.
+This resource was adapted for LEADR classes from [this](http://drstephenrobertson.com/blog-post/teaching-digital-mapping-with-kepler-gl/) tutorial.
+
+**Potential Data Sets**
+    [Alabama Slave Interviews] created by Dr. Robertson(http://drstephenrobertson.com/blog-post/teaching-digital-mapping-with-kepler-gl/)    
+    [Alabama County Unemployment data](https://github.com/leadr-msu/kepler-gl/blob/master/AL-countyunemployment.geojson)
