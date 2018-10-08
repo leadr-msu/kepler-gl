@@ -1,7 +1,7 @@
 # Introductory Guide to Kepler.gl
 _Prepared by Alyssa Lopez_
 
-This resource was adapted for LEADR classes from ["Teaching Digital Mapping with kepler.gl" by Stephen Robertson.](http://drstephenrobertson.com/blog-post/teaching-digital-mapping-with-kepler-gl/) tutorial.
+This resource was adapted for LEADR classes from ["Teaching Digital Mapping with kepler.gl" by Stephen Robertson.](http://drstephenrobertson.com/blog-post/teaching-digital-mapping-with-kepler-gl/).
 
 
 ## Basic Information
@@ -125,3 +125,23 @@ If you have time values in your dataset, Kepler allows for an interactive map wi
    * To disable the playback option and have only a set amount of points displayed on the map between a set time period, click on the clock icon under the “Filters” menu.
 
 **N.B.:** Filters apply to all layers from a single dataset.
+
+
+## Category Map
+If your dataset has multiple identifiable categorical options, you can have Kepler visualize your map by these categories. Because filters apply to all layers of a dataset, the same dataset will need to be uploaded multiple times to add different filters to certain categories.
+1. Return to the "Layers Settings" icon and select "add data." Upload a second copy of the original dataset that you are using.
+
+
+**N.B.:** Each dataset is assigned a color. Every layer that uses that dataset is identified by the same color.
+
+
+2. Rename your first layer to a category (1) and name the second layer the other category (2). These should each be two categorical values that fell within the same column, i.e. house and field as two categories within type of slave.
+3. Return to the "Filters" icon and select "Add Filter."
+    * Select dataset (1) and chose your larger column value (i.e. type of slave). For value, select what you have just renamed this dataset to (i.e. house).
+4. Select "Add Filter," one more time.
+    * Select category (2) and chose your larger column value. For value, select what you have just renamed this dataset to.
+5. To make these points more clear, you can go back into the "Layer Settings" for each one of the layers and change the size and color of the points.
+6. You can also go back into "Interaction Settings" and adjust the information that pops up when the mouse rolls over a point so that it better corresponds with any new research question that this new visualization poses.
+
+
+## Polygon Map
