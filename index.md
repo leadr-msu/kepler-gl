@@ -41,6 +41,7 @@ Before moving forward and manipulating and analyzing your map, you can adjust so
 Kepler allows you to add multiple layers to your map with the same dataset (or another if you add more datasets). To edit this any given layer, click on the icon on the upper-left hand corner that looks like 3 stacked squares.
 * You can change the name of a layer by clicking "layers" and typing in a new name.
 * To reach all of the other adjustable layer settings, click the small down arrow to the right of "layers."
+
 1. Basic:
     * This is where you can change the layer type. Your options include: point, arc, line, grid, hexbin, polygon, cluster, icon, H3, and heatmap. The automatic choice is "point."
 2. Color:
@@ -50,7 +51,9 @@ Kepler allows you to add multiple layers to your map with the same dataset (or a
     * Changes the color density of your points
 4. Radius:
     * This changes the size of your points
+
 **N.B.:** Color and radius can be set to reflect a range of quantitative values. You would not want to use this option, say, for interviewers or interviewees because its categorical and there may be too many options within your dataset.
+
 5. Draw Outline:
     * You can make your points only have outlines, instead of a fill
     * This might not be useful because the clarity of the points is lost depending on the color scheme.
@@ -119,5 +122,5 @@ If you have time values in your dataset, Kepler allows for an interactive map wi
    * When the “Play” button is pressed, a line will move across the timeline, showing the amount of information that you have chosen with the slider at a given moment (all of the points will eventually be displayed).
    * You can adjust the playback speed at the top right of the timeline
    * To disable the playback option and have only a set amount of points displayed on the map between a set time period, click on the clock icon under the “Filters” menu.
-   
+
 **N.B.:** Filters apply to all layers from a single dataset.
