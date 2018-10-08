@@ -35,3 +35,89 @@ Before moving forward and manipulating and analyzing your map, you can adjust so
     * Building:
     * Water: When this is on, all waterways on your map are visible
     * Land:
+
+
+## Layer Settings
+Kepler allows you to add multiple layers to your map with the same dataset (or another if you add more datasets). To edit this any given layer, click on the icon on the upper-left hand corner that looks like 3 stacked squares.
+* You can change the name of a layer by clicking "layers" and typing in a new name.
+* To reach all of the other adjustable layer settings, click the small down arrow to the right of "layers."
+1. Basic:
+    * This is where you can change the layer type. Your options include: point, arc, line, grid, hexbin, polygon, cluster, icon, H3, and heatmap. The automatic choice is "point."
+2. Color:
+    * You can select a single color for all of your points or you can select “colored based on” and make it a color scale dependent on particular variable.
+    * The color based on can be any of the options (columns) of your dataset.
+3. Opacity:
+    * Changes the color density of your points
+4. Radius:
+    * This changes the size of your points
+**N.B.:** Color and radius can be set to reflect a range of quantitative values. You would not want to use this option, say, for interviewers or interviewees because its categorical and there may be too many options within your dataset.
+5. Draw Outline:
+    * You can make your points only have outlines, instead of a fill
+    * This might not be useful because the clarity of the points is lost depending on the color scheme.
+6. Text:
+    * You can also have text labels for each of your points and have the ability to change the color and size of this text.
+    * I would not suggest doing this because this information can be made visible by scrolling over a point, rather than having possibly distracting/overwhelming text above all your points.
+
+
+## Interactions Settings
+When you click on the icon on the upper-left hand side of your screen that looks like a cirlce with a cursor over it, you have the ability to adjust how certain interactions on your map look. There are two options within this settings list: Tooltip and Brush.
+1. Tooltip:
+    * This is where you can change the information that appears when you scroll over a point.
+    * What appears in the box under “tooltip” are some of the columns from the .csv that was uploaded to Kepler
+    * You can add and delete this information as you see fit. The choices you make for what goes within the pop-up depends largely on your research question(s).
+    * If you do not want any information to show when you scroll over a point, you can shut tooltip off with the slider next to the tool.
+2. Brush:
+
+
+## Cluster Map
+Cluster maps make it so that points within a set radius are grouped together. To do this, return to the Layers Settings icon.
+1. Under "Layer Type," choose "Cluster."
+    * Zooming in and out of the map, changes the the size of the clusters.
+2. Color:
+    * The automatic setting here is to have a color scheme based on point count in each cluster and the color scale itself is based on quantity.
+3. Radius:
+    * Cluster Size: with this slider, you can change the amount of points in a cluster.
+    * Radius Range: changes the size of the circle that represents each cluster.
+
+
+## Heat Map
+To change your map to a heatmap, return to the Layers Settings icon.
+1. Under "Layer Type," choose "Heatmap."
+2. Color:
+    * The color scheme here is not as important as opacity. With the Opacity setting, your “hot” areas become much darker as you move the slide up.
+3. Radius:
+    * This changes the size of each grouping now on your map.
+4. Weight:
+    * The automatic setting is “density,” which arguably you want to leave it on, as it shows the “hot” areas where there is an abundance of points.
+
+
+## Comparisons (Cluster & Heatmap)
+It is possible to compare map styles in Kepler through two different methods: Overlapping layers and Dual Map.
+1. Overlapping Layers:
+    * Change your layer type back to “Cluster.”
+    * In the “Layers Setting” menu, select “Add a layer.”
+    * Name this second layer “Heat Map” and select that option under “Layer Type.”
+    * You’ll see two boxes highlighted red: Lat + Lng. In the respective boxes, select the respective field (Lat = latitude; Lng = longitude)
+    * Both of the clusters and heatmap are now overlapping on the same map and allow for some comparisons.
+2. Dual Map
+    * You can also view the maps side by side by selecting “Dual Map View” on the top right corner of the window.
+    * There is now a “Visible Layers” window that shows on each of your maps (also on the top right corner of the window).
+    * In the Cluster map, de-select “heat map”
+    * In the Heat map, de-select “interviews”
+    * Now, you should see each of the two layers on either side of your screen to compare results.
+
+
+## Time Map
+If you have time values in your dataset, Kepler allows for an interactive map with a timeline. To do this, navigate to the "Filters" icon, which looks like a funnel, on the upper-left hand side of your screen.
+1. Once there, select "add filter."
+2. Within the box that appears, select the field that starts with "time." A timeline should now appear at the bottom of your screen.
+3. The span of time is set automatically by Kepler and the timeline shows the number of points that occur at each moment in time.  
+4. Using the white slider at the bottom of the timeline, you can change the span of time that is shown on the map.
+    * All dates shown in blue on the timeline are displayed on the map.
+    * All dates shown in grey are not displayed on the map.
+5. Playback:
+   * When the “Play” button is pressed, a line will move across the timeline, showing the amount of information that you have chosen with the slider at a given moment (all of the points will eventually be displayed).
+   * You can adjust the playback speed at the top right of the timeline
+   * To disable the playback option and have only a set amount of points displayed on the map between a set time period, click on the clock icon under the “Filters” menu.
+   
+**N.B.:** Filters apply to all layers from a single dataset.
