@@ -6,5 +6,5 @@ Kepler.gl is a platform designed for geospatial data analysis, making it possibl
 This resource was adapted for LEADR classes from [this](http://drstephenrobertson.com/blog-post/teaching-digital-mapping-with-kepler-gl/) tutorial.
 
 **Potential Data Sets**
-    [Alabama Slave Interviews] created by Dr. Robertson(http://drstephenrobertson.com/blog-post/teaching-digital-mapping-with-kepler-gl/)    
+    [Alabama Slave Interviews](http://drstephenrobertson.com/blog-post/teaching-digital-mapping-with-kepler-gl/) created by Dr. Robertson    
     [Alabama County Unemployment data](https://github.com/leadr-msu/kepler-gl/blob/master/AL-countyunemployment.geojson)
