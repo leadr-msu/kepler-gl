@@ -1,5 +1,6 @@
 # Introductory Guide to Kepler.gl
 _Prepared by Alyssa Lopez_
+
 This resource was adapted for LEADR classes from [this](http://drstephenrobertson.com/blog-post/teaching-digital-mapping-with-kepler-gl/) tutorial.
 
 
