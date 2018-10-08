@@ -41,6 +41,8 @@ Before moving forward and manipulating and analyzing your map, you can adjust so
 Kepler allows you to add multiple layers to your map with the same dataset (or another if you add more datasets). To edit this any given layer, click on the icon on the upper-left hand corner that looks like 3 stacked squares.
 * You can change the name of a layer by clicking "layers" and typing in a new name.
 * To reach all of the other adjustable layer settings, click the small down arrow to the right of "layers."
+
+
 1. Basic:
     * This is where you can change the layer type. Your options include: point, arc, line, grid, hexbin, polygon, cluster, icon, H3, and heatmap. The automatic choice is "point."
 2. Color:
