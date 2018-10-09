@@ -148,3 +148,26 @@ If your dataset has multiple identifiable categorical options, you can have Kepl
 
 
 ## Polygon Map
+Kepler also allows you to create Choropleth maps, which use color schemes to show values in particular areas. These types of maps are particularly useful for population or demographic studies. Within Kepler, using a .geojson file is very helpful.
+1. After your .geojson file is uploaded, be sure to check that "polygon fill" is selected under "Layer Settings."
+2. Choose a color scheme and then within "Color based on," choose the value that you want represented on the map.
+
+
+## Exporting
+1. Click on the "share" button to the right of the Kepler.gl logo on the upper-left hand side of the screen. There are three options.
+    * Export Image:
+        * Select one of the three rations for the size of the image
+        * Select a resolution for the Image
+        * Before exporting, you also have the option of adding a legend to the map, if need be.
+    * Export Data:
+        * This exports the datasets (.csv) that you were working with, but also gives you the option to download ONLY the filtered data, which can later be reuploaded.
+    * Export Config:
+        * With the "Export Current Map File" option selected, a file is created that you can upload to continue working on or edit
+        * The file (.json) includes the current layer, filter, map style, and interactions settings.
+
+
+**N.B.:**
+* Only images can be exported from Kepler.gl, which means you cannot embed an interactive map into a site.
+* You cannot give a map a title.
+* Dual Map View does not export. If you chose to export while this option is selected, you will only get an image of the two overlapping map types.
+* The time filer will not be exported with an image of the map.
