@@ -1,13 +1,13 @@
 # Introductory Guide to Kepler.gl
 _Prepared by Alyssa Lopez_
 
-This resource was adapted for LEADR classes from ["Teaching Digital Mapping with kepler.gl" by Stephen Robertson.](http://drstephenrobertson.com/blog-post/teaching-digital-mapping-with-kepler-gl/).
+This resource was adapted for LEADR classes from ["Teaching Digital Mapping with kepler.gl" by Stephen Robertson.](http://drstephenrobertson.com/blog-post/teaching-digital-mapping-with-kepler-gl/) All options below were tested with Google Chrome.
 
 
 ## Basic Information
 Kepler.gl is a platform designed for geospatial data analysis, making it possible to investigate trends on various geographical levels, including region, state, city, and county. A variety maps, such as points, networks, and chloropeths, can be created (or compared) with filters and layering,
 
-For Kepler to be able to make a map from data, there needs to be latitudinal and longitudinal information within your dataset. In some cases, a dataset may have latitude and longitude in one single column, separated by a comma. Kepler **will not** be able to read these values. For more information on the types of files and formats that Kepler accepts, refer to "Add Data on the Map" on the [user guide](https://github.com/uber/kepler.gl/blob/master/docs/j-get-started.md)
+For Kepler to be able to make a map from data, there needs to be latitudinal and longitudinal information within your dataset. In some cases, a dataset may have latitude and longitude in one single column, separated by a comma. Kepler **will not** be able to read these values. For more information on the types of files and formats that Kepler accepts, refer to "Add Data on the Map" on the [Kepler user guide.](https://github.com/uber/kepler.gl/blob/master/docs/j-get-started.md)
 
 **Potential Data Sets**
 * [Alabama Slave Interviews](http://drstephenrobertson.com/blog-post/teaching-digital-mapping-with-kepler-gl/) used by Dr. Robertson    
@@ -16,7 +16,7 @@ For Kepler to be able to make a map from data, there needs to be latitudinal and
 
 ## Getting Started
 1. Head to [kepler.gl](kepler.gl) and select "Get Started." Next, you'll need to upload your dataset.
-2. You should now see a dark map with light points throughout (which represent your location data). If you roll over a point with your mouse, a pop-up will appear with the information from your dataset. You can change this later.
+2. Once you do this, you should see a dark map with light points throughout (which represent your location data). If you roll over a point with your mouse, a pop-up will appear with the information from your dataset. You can change this later.
 3. If you click on a point, it will remain fixed and a green pin will appear. To unpin it, click that green pin.
 
 **N.B.:** Multiple rows of data with the same latitude & longitude coordinates will not be made separate by Kepler and the points will show up on top of each other with only the top one displaying.
@@ -38,7 +38,7 @@ Before moving forward and manipulating and analyzing your map, you can adjust so
 
 
 ## Layer Settings
-Kepler allows you to add multiple layers to your map with the same dataset (or another if you add more datasets). To edit this any given layer, click on the icon on the upper-left hand corner that looks like 3 stacked squares.
+Kepler allows you to add multiple layers to your map with the same dataset (or another if you add more datasets). To edit any given layer, click on the icon on the upper-left hand corner that looks like 3 stacked squares.
 * You can change the name of a layer by clicking "layers" and typing in a new name.
 * To reach all of the other adjustable layer settings, click the small down arrow to the right of "layers."
 
@@ -66,7 +66,7 @@ Kepler allows you to add multiple layers to your map with the same dataset (or a
 
 
 ## Interactions Settings
-When you click on the icon on the upper-left hand side of your screen that looks like a cirlce with a cursor over it, you have the ability to adjust how certain interactions on your map look. There are two options within this settings list: Tooltip and Brush.
+When you click on the icon on the upper-left hand side of your screen that looks like a circle with a cursor over it, you have the ability to adjust how certain interactions on your map look. There are two options within this settings list: Tooltip and Brush.
 1. Tooltip:
     * This is where you can change the information that appears when you scroll over a point.
     * What appears in the box under “tooltip” are some of the columns from the .csv that was uploaded to Kepler
@@ -76,7 +76,7 @@ When you click on the icon on the upper-left hand side of your screen that looks
 
 
 ## Cluster Map
-Cluster maps make it so that points within a set radius are grouped together. To do this, return to the Layers Settings icon.
+Cluster maps make it so that points within a set radius are grouped together. To do this, return to the Layers Settings menu.
 1. Under "Layer Type," choose "Cluster."
     * Zooming in and out of the map, changes the the size of the clusters.
 2. Color:
@@ -87,7 +87,7 @@ Cluster maps make it so that points within a set radius are grouped together. To
 
 
 ## Heat Map
-To change your map to a heatmap, return to the Layers Settings icon.
+To change your map to a heatmap, return to the Layers Settings menu.
 1. Under "Layer Type," choose "Heatmap."
 2. Color:
     * The color scheme here is not as important as opacity. With the Opacity setting, your “hot” areas become much darker as you move the slide up.
@@ -103,10 +103,11 @@ It is possible to compare map styles in Kepler through two different methods: Ov
     * Change your layer type back to “Cluster.”
     * In the “Layers Setting” menu, select “Add a layer.”
     * Name this second layer “Heat Map” and select that option under “Layer Type.”
-    * You’ll see two boxes highlighted red: Lat + Lng. In the respective boxes, select the respective field (Lat = latitude; Lng = longitude)
+    * You’ll see two boxes highlighted red: Lat + Lng. In the respective boxes, select the respective field (Lat = latitude; Lng = longitude).
     * Both of the clusters and heatmap are now overlapping on the same map and allow for some comparisons.
 2. Dual Map
-    * You can also view the maps side by side by selecting “Dual Map View” on the top right corner of the window.
+    * To do this, you will have to had followed the above steps.
+    * You can also view the maps side by side you just made by selecting “Dual Map View” on the top right corner of the window.
     * There is now a “Visible Layers” window that shows on each of your maps (also on the top right corner of the window).
     * In the Cluster map, de-select “heat map”
     * In the Heat map, de-select “interviews”
@@ -114,7 +115,7 @@ It is possible to compare map styles in Kepler through two different methods: Ov
 
 
 ## Time Map
-If you have time values in your dataset, Kepler allows for an interactive map with a timeline. To do this, navigate to the "Filters" icon, which looks like a funnel, on the upper-left hand side of your screen.
+If you have time values in your dataset, Kepler allows for an interactive map with a timeline. To do this, navigate to the "Filters" menu, which looks like a funnel, on the upper-left hand side of your screen.
 1. Once there, select "add filter."
 2. Within the box that appears, select the field that starts with "time." A timeline should now appear at the bottom of your screen.
 3. The span of time is set automatically by Kepler and the timeline shows the number of points that occur at each moment in time.  
@@ -131,7 +132,7 @@ If you have time values in your dataset, Kepler allows for an interactive map wi
 
 ## Category Map
 If your dataset has multiple identifiable categorical options, you can have Kepler visualize your map by these categories. Because filters apply to all layers of a dataset, the same dataset will need to be uploaded multiple times to add different filters to certain categories.
-1. Return to the "Layers Settings" icon and select "add data." Upload a second copy of the original dataset that you are using.
+1. Return to the "Layers" menu and select "add data." Upload a second copy of the original dataset that you are using.
 
 
 **N.B.:** Each dataset is assigned a color. Every layer that uses that dataset is identified by the same color.
@@ -141,9 +142,9 @@ If your dataset has multiple identifiable categorical options, you can have Kepl
 3. Return to the "Filters" icon and select "Add Filter."
     * Select dataset (1) and chose your larger column value (i.e. type of slave). For value, select what you have just renamed this dataset to (i.e. house).
 4. Select "Add Filter," one more time.
-    * Select category (2) and chose your larger column value. For value, select what you have just renamed this dataset to.
+    * Select category (2) and chose your larger column value (i.e. type of slave). For value, select what you have just renamed this dataset to (i.e. field).
 5. To make these points more clear, you can go back into the "Layer Settings" for each one of the layers and change the size and color of the points.
-6. You can also go back into "Interaction Settings" and adjust the information that pops up when the mouse rolls over a point so that it better corresponds with any new research question that this new visualization poses.
+6. You can also go back into "Interaction" menu and adjust the information that pops up when the mouse rolls over a point so that it better corresponds with any new research question that this new visualization poses.
 
 
 ## Polygon Map
