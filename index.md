@@ -171,3 +171,6 @@ Kepler also allows you to create Choropleth maps, which use color schemes to sho
 * You cannot give a map a title.
 * Dual Map View does not export. If you chose to export while this option is selected, you will only get an image of the two overlapping map types.
 * The time filer will not be exported with an image of the map.
+
+-----
+### Return to [LEADR's Resources list](https://leadr-msu.github.io/)
